@@ -4,7 +4,7 @@
 	<head>
 		<title>Online CV</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> <!-- This makes the website scalable-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" /> <!-- This makes the website scalable-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -245,6 +245,7 @@
 							<article id="Intresting">
 								<h2 class="major">Stay Informed</h2>
 
+								<!-- Twitter API -->
 								<h3>  <b>Twiter: Bradley Jones</b> </h3>
 								<p>This twitter acount keeps you uptodate on varies new Twitter API's and new functions for website developers.
 									 This account has helped me to expand my knowlede and has made it easier to create my online CV.  </p>
@@ -257,7 +258,7 @@
 									<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-
+								<!-- Youtube API -->
 								<h3>  <b>Informative Video:</b> </h3>
 								<p> I try to stay up to date with new technology that is being developed everyday. 
 									Belowe is a video that has recently catched my eye and has made me excited for the future!</p>
@@ -314,7 +315,17 @@
 
 
 									<p> Note: the video will continue to play if you leave this tab.</p>
-			
+									
+
+									<!-- NEWS API 
+										var url = 'http://newsapi.org/v2/top-headlines?' +
+										'country=us&' +
+										'apiKey=87b70a2ef2234b87a9127fb3e27da2c5';
+										var req = new Request(url);
+										fetch(req)
+											.then(function(response) {
+												console.log(response.json());
+											})-->
 
 							</article>
 
